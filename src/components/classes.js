@@ -2,7 +2,7 @@ export const classes = [
     " ",
     "ADVANCED JAVA PROGRAMMING (AHM)",
     "SYSTEM PROGRAMMING & COMPILER DESIGN (SD)",
-    "ELECTIVE II (FBA)",
+    "DIGITAL IMAGE PROCESSING (FBA)",
     "MANAGEMENT (***)",
     "LIB/TUTORIAL",
     "NO CLASS",

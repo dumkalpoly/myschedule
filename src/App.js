@@ -36,7 +36,8 @@ class App extends Component {
               <font color="red">
                 <b> ❤ </b>
               </font>{" "}
-              by Injamul Mohammad Mollah, All rights reversed
+              by Injamul Mohammad Mollah <br/>
+              forked from <i className="fa-github-square"></i> <a href="https://github.com/mrinjamul/myschedule">mrinjamul/myschedule</a>
             </h3>
           </div>
         )}
