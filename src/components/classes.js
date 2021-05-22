@@ -1,11 +1,13 @@
 export const classes = [
-    " ",
-    "ADVANCED JAVA PROGRAMMING (AHM)",
-    "SYSTEM PROGRAMMING & COMPILER DESIGN (SD)",
-    "DIGITAL IMAGE PROCESSING (FBA)",
-    "MANAGEMENT (***)",
-    "LIB/TUTORIAL",
+    " ", 
+    "COMPUTER GRAPHICS (AHM)",
+    "OBJECT ORIENTED PROGRAMMING(SD)",
+    "COMPUTER NETWORK (JM)",
+    "RDBMS (FBA)",
+    "MICROPROCESSOR & PROGRAMMING",
+    "DLS II (ARM)",
     "NO CLASS",
-  ];
+    ];
+
 // eslint-disable-next-line
-export default {classes}
+export default { classes }

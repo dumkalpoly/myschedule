@@ -90,8 +90,8 @@ class Schedule extends Component {
 
     if (day === 0) {
       DayName = "Sunday";
-      Class_1 = classes[1];
-      Class_2 = classes[3];
+      Class_1 = classes[4];
+      Class_2 = classes[5];
       if (eleven <= now && now < thirteenHalf) {
         CurrentS = Class_1;
       } else if (thirteenHalf <= now && now < fourteen) {
@@ -103,8 +103,8 @@ class Schedule extends Component {
       }
     } else if (day === 1) {
       DayName = "Monday";
-      Class_1 = classes[3];
-      Class_2 = classes[6];
+      Class_1 = classes[2];
+      Class_2 = classes[1];
       if (eleven <= now && now < thirteenHalf) {
         CurrentS = Class_1;
       } else if (thirteenHalf <= now && now < fourteen) {
@@ -116,8 +116,8 @@ class Schedule extends Component {
       }
     } else if (day === 2) {
       DayName = "Tuesday";
-      Class_1 = classes[1];
-      Class_2 = classes[6];
+      Class_1 = classes[3];
+      Class_2 = classes[2];
       if (eleven <= now && now < thirteenHalf) {
         CurrentS = Class_1;
       } else if (thirteenHalf <= now && now < fourteen) {
@@ -129,7 +129,7 @@ class Schedule extends Component {
       }
     } else if (day === 3) {
       DayName = "Wednesday";
-      Class_1 = classes[2];
+      Class_1 = classes[1];
       Class_2 = classes[4];
       if (eleven <= now && now < thirteenHalf) {
         CurrentS = Class_1;
@@ -142,8 +142,21 @@ class Schedule extends Component {
       }
     } else if (day === 4) {
       DayName = "Thursday";
-      Class_1 = classes[2];
-      Class_2 = classes[4];
+      Class_1 = classes[5];
+      Class_2 = classes[3];
+      if (eleven <= now && now < thirteenHalf) {
+        CurrentS = Class_1;
+      } else if (thirteenHalf <= now && now < fourteen) {
+        CurrentS = messages[0];
+      } else if (fourteen <= now && now < sixteenHalf) {
+        CurrentS = Class_2;
+      } else {
+        CurrentS = messages[1];
+      }
+    } else if (day === 6) {
+      DayName = "Saturday";
+      Class_1 = classes[6];
+      Class_2 = classes[7];
       if (eleven <= now && now < thirteenHalf) {
         CurrentS = Class_1;
       } else if (thirteenHalf <= now && now < fourteen) {
@@ -166,7 +179,7 @@ class Schedule extends Component {
       sed = <Fschedule />;
     }
     let displayToday;
-    if (day === 5 || day === 6) {
+    if (day === 5) {
       displayToday = <Holiday Day={DayName} />;
     } else {
       displayToday = <Day Day={DayName} Class_1={Class_1} Class_2={Class_2} />;

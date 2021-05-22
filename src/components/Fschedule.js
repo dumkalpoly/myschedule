@@ -24,28 +24,33 @@ function Schedule() {
         <tbody>
           <tr className="select">
             <td>Sunday</td>
-            <td> {classes[1]} </td>
-            <td> {classes[3]} </td>
+            <td> {classes[4]} </td>
+            <td> {classes[5]} </td>
           </tr>
           <tr className="selected">
             <td>Monday</td>
-            <td> {classes[3]} </td>
-            <td> {classes[6]} </td>
+            <td> {classes[2]} </td>
+            <td> {classes[1]} </td>
           </tr>
           <tr className="select">
             <td>Tuesday</td>
-            <td> {classes[1]} </td>
-            <td> {classes[6]} </td>
+            <td> {classes[3]} </td>
+            <td> {classes[2]} </td>
           </tr>
           <tr className="selected">
             <td>Wednesday</td>
-            <td> {classes[2]} </td>
+            <td> {classes[1]} </td>
             <td> {classes[4]} </td>
           </tr>
           <tr className="select">
             <td>Thursday</td>
-            <td> {classes[2]} </td>
-            <td> {classes[4]} </td>
+            <td> {classes[5]} </td>
+            <td> {classes[3]} </td>
+          </tr>
+          <tr className="selected">
+            <td>Saturday</td>
+            <td> {classes[6]} </td>
+            <td> {classes[7]} </td>
           </tr>
         </tbody>
       </table>

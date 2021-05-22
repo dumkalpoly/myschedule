@@ -37,7 +37,8 @@ class App extends Component {
                 <b> ❤ </b>
               </font>{" "}
               by Injamul Mohammad Mollah <br/>
-              forked from <i className="fa-github-square"></i> <a href="https://github.com/mrinjamul/myschedule">mrinjamul/myschedule</a>
+              forked from <i className="fa-github-square">
+</i> <a href="https://github.com/mrinjamul/myschedule">mrinjamul/myschedule</a>
             </h3>
           </div>
         )}
